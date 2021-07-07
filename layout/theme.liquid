@@ -60,6 +60,9 @@
   {{ content_for_header }}
 
 {% render 'wishlisthero-styles.liquid' %}	{% include 'rfq_script' %}
+<!--Gem_Page_Header_Script-->
+{% include 'gem-app-header-scripts' %}
+<!--End_Gem_Page_Header_Script-->
 </head>
 
 <body id="{{ page_title | handle }}" class="{% if customer %}customer-logged-in {% endif %}template-{{ request.page_type | handle }}">
@@ -301,6 +304,9 @@
 
 {% render 'wholesale-now', customer: customer, template: template, product: product, cart: cart %}
       {% include 'social-login' %}{% include 'limitsify' %}
-	        </body>
+	        <!--Gem_Page_Footer_Script-->
+{% include 'gem-app-footer-scripts' %}
+<!--End_Gem_Page_Footer_Script-->
+</body>
 </html>
 {% include 'call-for-price' %}

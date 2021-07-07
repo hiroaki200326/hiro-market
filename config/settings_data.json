@@ -68,6 +68,7 @@
           "show_announcement": false,
           "home_page_only": true,
           "text": "ここで告知してください",
+          "link": "",
           "color_bg": "#dbc18b",
           "color_text": "#ffffff"
         }
@@ -81,13 +82,24 @@
       "slideshow": {
         "type": "slideshow",
         "blocks": {
+          "1594532136535": {
+            "type": "image",
+            "settings": {
+              "hero_slide": "shopify:\/\/shop_images\/business-woman-with-wool-hat.jpg",
+              "image_position": "center center",
+              "hero_title": "HIRO MARKET",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
           "slider-0": {
             "type": "image",
             "settings": {
               "hero_slide": "shopify:\/\/shop_images\/mens-fashion-man-in-shirt-and-jeans-sat-on-steps.jpg",
               "image_position": "center center",
               "hero_title": "HIRO MARKET",
-              "button_label": ""
+              "button_label": "",
+              "button_link": ""
             }
           },
           "1594532035744": {
@@ -96,23 +108,15 @@
               "hero_slide": "shopify:\/\/shop_images\/stylish-man-in-bow-tie.jpg",
               "image_position": "center center",
               "hero_title": "HIRO MARKET",
-              "button_label": ""
-            }
-          },
-          "1594532136535": {
-            "type": "image",
-            "settings": {
-              "hero_slide": "shopify:\/\/shop_images\/business-woman-with-wool-hat.jpg",
-              "image_position": "center center",
-              "hero_title": "HIRO MARKET",
-              "button_label": ""
+              "button_label": "",
+              "button_link": ""
             }
           }
         },
         "block_order": [
+          "1594532136535",
           "slider-0",
-          "1594532035744",
-          "1594532136535"
+          "1594532035744"
         ],
         "settings": {
           "hero_home_height": "full",
